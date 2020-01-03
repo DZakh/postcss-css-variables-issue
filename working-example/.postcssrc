@@ -1,5 +1,4 @@
 {
-  "modules": true,
   "plugins": {
     "postcss-css-variables": {
       "preserve": true
