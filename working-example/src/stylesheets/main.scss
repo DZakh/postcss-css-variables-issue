@@ -1,0 +1,9 @@
+@charset 'UTF-8';
+
+:root {
+  --some-clr: red;
+}
+
+.greeting {
+  color: var(--some-clr);
+}
