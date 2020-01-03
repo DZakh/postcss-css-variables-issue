@@ -1,0 +1,22 @@
+{
+  "name": "postcss-css-variables-issue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel ./src/index.html --open",
+    "build": "parcel build ./src/index.html --public-url ./"
+  },
+  "keywords": [],
+  "author": "Dmitry Zakh <dzakh.dev@gmail.com> (https://dzakh.dev/)",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-clean-dist": "0.0.6",
+    "postcss-css-variables": "^0.14.0",
+    "postcss-modules": "^1.4.1",
+    "sass": "^1.23.0"
+  }
+}
